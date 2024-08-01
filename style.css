@@ -89,10 +89,20 @@ ul a {
     color: #E5E7EB;
 }
 
-#tester {
+#for-padding {
    padding-top: 3px;
 }
 
+.container img {
+    border: solid #3e84f4 4px;
+    width: 180px;
+    height: 180px;
+    border-radius: 30px;
+}
+
+.text {
+    width: 180px;
+}
 .cover {
     height: 350px;
     width: 200px;
@@ -116,10 +126,6 @@ ul a {
 }
 
 .items {
-    border: solid #3e84f4 4px;
-    width: 180px;
-    height: 180px;
-    border-radius: 30px;
     overflow: hidden;
 }
 
@@ -133,10 +139,6 @@ ul a {
     font-weight: 800;
 }
 
-.texter {
-    display: flex;
-    justify-content: center;
-}
 
 /* @media screen and (max-width: 800px) {
 
