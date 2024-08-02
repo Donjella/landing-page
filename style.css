@@ -44,7 +44,7 @@ ul a {
 .section-1 {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 0px;
     color: #F9FAF8;
     background-color: #1F2937;
     padding: 20px 270px;
@@ -232,13 +232,9 @@ ul a {
 }
 
 
- @media screen and (max-width: 379px) {
+ @media screen and (max-width: 800px) {
     .section-1 {
-        display: flex;
-        justify-content: center;
-        gap: 50px;
-        color: #F9FAF8;
-        background-color: #1F2937;
+        padding: 0;
         flex-wrap: wrap;
     }
     
