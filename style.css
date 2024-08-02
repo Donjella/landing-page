@@ -54,9 +54,10 @@ ul a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 3px;
+    gap: 1px;
     min-width: 200px;
     flex: 1 1 0;
+    margin: 0;
 }
 
 .subtext {
@@ -66,8 +67,12 @@ ul a {
     gap: 10px;
 }
 
+#subtext-width {
+    width: 350px;
+}
+
 #signup-btn {
-    margin: 10px auto;
+   
     width: fit-content;
     background-color: #3882f6;
     height: 40px;
